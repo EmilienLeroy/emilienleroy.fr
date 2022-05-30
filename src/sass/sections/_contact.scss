@@ -19,12 +19,12 @@
   }
 
   .contact-wrapper {
-    margin-top: 3.2rem;
+    margin-top: -1.8rem;
     padding: 0 2rem;
     backface-visibility: hidden;
 
     &__text {
-      margin-bottom: 2.5rem;
+      margin: 0px;
     }
 
     &__text,
@@ -34,6 +34,10 @@
       @include respond(phone) {
         font-size: 2rem;
       }
+    }
+
+    a {
+      margin-top: 4rem;
     }
   }
 }

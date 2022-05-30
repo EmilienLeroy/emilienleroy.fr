@@ -6,7 +6,7 @@
   border-bottom: 0px;
   background: $white-color;
   font-weight: 400;
-  color: $dark-blue-text;
+  color: $white-color;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
   top: 0;
@@ -14,6 +14,11 @@
   bottom: 0;
   right: 0;
   z-index: -1;
+  background-image: linear-gradient(360deg, $primary-color, #040a1600), url('assets/background.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   // Set position sticky so the jumbotron stays fixed while you scroll.
   // position: sticky;
