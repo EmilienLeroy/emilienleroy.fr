@@ -1,4 +1,4 @@
-#projects {
+.projects {
   background-color: $white-color;
   color: $dark-blue-text;
   margin-top: -10rem;
@@ -7,6 +7,34 @@
   @include respond(tab-land) {
     margin-top: 0;
     padding-top: 5rem;
+  }
+
+  &--color {
+    background-color: $primary-color;
+    background-image: linear-gradient(
+      135deg,
+      $primary-color 0%,
+      $secondary-color 100%
+    );
+
+    color: $white-color;
+    border-top: 0px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 93%, 0 99%);
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 0 99%);
+    padding-bottom: 1% !important;
+    padding-top: 7% !important;
+    
+    .section-title {
+      color: $white-color !important;
+    }
+
+    @include respond(tab-land) {
+      -webkit-clip-path: none;
+      clip-path: none;
+      padding-bottom: 5px !important;
+      padding-top: 10rem !important;
+      margin-bottom: 40px;
+    }
   }
 
   .project-wrapper {
