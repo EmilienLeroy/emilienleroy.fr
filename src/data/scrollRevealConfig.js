@@ -16,6 +16,14 @@ export const targetElements = [
     },
   },
   {
+    element: ".timeline__item",
+    animation: {
+      delay: 300,
+      distance: "100px",
+      origin: "bottom",
+    },
+  },
+  {
     element: ".hero-title",
     animation: {
       delay: 500,
