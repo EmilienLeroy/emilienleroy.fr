@@ -1,6 +1,4 @@
-# EmilienLeroy.fr 
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6d562a11-c5b3-4a8c-8410-7bca25313b78/deploy-status)](https://emilienleroy.fr)
+# EmilienLeroy.fr
 
 My personnal portfolio which contain all my professional and personnal projects. This project was made using [simplefolio](https://github.com/cobiwave/simplefolio) as template.
 
